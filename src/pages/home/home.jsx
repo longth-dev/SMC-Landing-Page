@@ -211,25 +211,17 @@ const Home = () => {
             </div>
             <p>The premier ride-matching platform dedicated to student mobility and safety.</p>
           </div>
-          <div>
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#features">Features</a></li>
-              <li><a href="#how-it-works">How It Works</a></li>
-              <li><a href="#benefits">Benefits</a></li>
-            </ul>
-          </div>
+
           <div>
             <h4>Contact Us</h4>
             <ul>
               <li>
                 <span className="material-symbols-outlined">mail</span>
-                hello@smc-ride.edu
+                smc-ride@gmail.com
               </li>
               <li>
                 <span className="material-symbols-outlined">location_on</span>
-                University Innovation Hub, Room 402
+                FPT University, TPHCM
               </li>
             </ul>
           </div>
@@ -249,7 +241,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home-container footer-bottom">
-          <p>© 2024 SMC-Ride. All rights reserved.</p>
+          <p>© 2026 SMC-Ride. All rights reserved.</p>
           <div className="footer-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>
