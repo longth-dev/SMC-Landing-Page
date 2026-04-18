@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import logo1 from "../../assets/smc1.png";
 
 const Home = () => {
   return (
@@ -7,7 +8,7 @@ const Home = () => {
       <header className="home-header">
         <div className="home-container header-content">
           <div className="brand">
-            <img className="brand-logo" src="/src/assets/smc1.png" alt="SMC-Ride" />
+            <img className="brand-logo" src={logo1} alt="SMC-Ride" />
             <h2 className="brand-name">SMC-Ride</h2>
           </div>
           <nav className="main-nav">
@@ -17,7 +18,12 @@ const Home = () => {
             <a className="nav-link" href="#benefits">Benefits</a>
             <a className="nav-link" href="#contact">Contact</a>
           </nav>
-          <button className="cta-button">Get the App</button>
+          <a
+            href="https://drive.google.com/uc?export=download&id=1DAlmO13NvC1h1QOIqXg-RwttNo5L52TK"
+            className="cta-button"
+          >
+            Get the App
+          </a>
         </div>
       </header>
 
@@ -37,7 +43,12 @@ const Home = () => {
                 </p>
               </div>
               <div className="hero-actions">
-                <button className="primary-button">Download App</button>
+                <a
+                  href="https://drive.google.com/uc?export=download&id=1DAlmO13NvC1h1QOIqXg-RwttNo5L52TK"
+                  className="primary-button"
+                >
+                  Download App
+                </a>
                 <button className="secondary-button">Learn More</button>
               </div>
             </div>
